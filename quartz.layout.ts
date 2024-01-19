@@ -21,7 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    // Component.ContentMeta(),
     // Component.Divider(),
   ],
   left: [
@@ -63,12 +63,12 @@ export const defaultContentPageLayout: PageLayout = {
         linkDistance: 50,
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.MobileOnly(Component.RecentNotes({
-      title: "Most recent",
-      limit: 5
-    })),
+    // Component.DesktopOnly(Component.TableOfContents()),
+    // Component.Backlinks(),
+    // Component.MobileOnly(Component.RecentNotes({
+    //   title: "Most recent",
+    //   limit: 5
+    // })),
     Component.MobileOnly(Component.Explorer({
       title: "Explore",
       useSavedState: true,
