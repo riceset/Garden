@@ -125,7 +125,7 @@ small {
 img {
     border-radius: var(--r3);
     margin: 0.5em 0;
-    box-shadow: 0 0 0 0.0625em hsla(0, 0%, 0%, 0.05);
+    box-shadow: 0;
 }
 [sketch] img {
     mix-blend-mode: multiply;
