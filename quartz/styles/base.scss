@@ -300,11 +300,13 @@ h6 {
   margin-bottom: 1rem;
 }
 
-div[data-rehype-pretty-code-fragment] {
+figure[data-rehype-pretty-code-figure] {
+  margin: 0;
+  position: relative;
   line-height: 1.6rem;
   position: relative;
 
-  & > div[data-rehype-pretty-code-title] {
+  & > [data-rehype-pretty-code-title] {
     font-family: var(--codeFont);
     font-size: 0.9rem;
     padding: 0.1rem 0.5rem;
@@ -316,7 +318,7 @@ div[data-rehype-pretty-code-fragment] {
   }
 
   & > pre {
-    padding: 0.5rem 0;
+    padding: 0;
   }
 }
 
@@ -326,6 +328,7 @@ pre {
   border-radius: 5px;
   overflow-x: auto;
   border: 1px solid var(--lightgray);
+  position: relative;
 
   &:has(> code.mermaid) {
     border: none;
@@ -338,6 +341,7 @@ pre {
     counter-reset: line;
     counter-increment: line 0;
     display: grid;
+    padding: 0.5rem 0;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
@@ -375,6 +379,15 @@ pre {
   }
 }
 
+// code {
+//   font-size: 0.9em;
+//   color: var(--dark);
+//   font-family: var(--codeFont);
+//   border-radius: 5px;
+//   padding: 0.1rem 0.2rem;
+//   background: var(--lightgray);
+// }
+
 code {
   font-size: 0.9em;
   color: var(--dark);
@@ -382,7 +395,10 @@ code {
   border-radius: 5px;
   padding: 0.1rem 0.2rem;
   background: var(--lightgray);
+  overflow-x: auto;
+  white-space: pre;
 }
+
 
 tbody,
 li,
