@@ -2,6 +2,14 @@
 title: ""
 tags:
     - Swift
+    - SwiftUI
+    - Stanford
+    - C
+    - Vim
+    - Linux
+    - Terminal
+    - Mandarin
+    - Anki
 ---
 <head>
   <style>
