@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer(
     {
     links: {
-      "GitHub": "https://github.com/riceset",
-      "Instagram": "https://instagram.com/riceset",
-      "X": "https://x.com/riceset",
+      // "GitHub": "https://github.com/riceset",
+      // "Instagram": "https://instagram.com/riceset",
+      // "X": "https://x.com/riceset",
     },
   }
   ),
@@ -29,13 +29,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Divider(),
-    Component.DesktopOnly(Component.RecentNotes({
-      title: "Most recent",
-      limit: 10
-    }))
+    // Component.DesktopOnly(Component.RecentNotes({
+    //   title: "Most recent",
+    //   limit: 10
+    // }))
   ],
   right: [
-    Component.TagList(),
+    // Component.TagList(),
     Component.Graph({
       localGraph: {
         linkDistance: 50,
