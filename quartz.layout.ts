@@ -38,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.TagList(),
     Component.MobileOnly(Component.RecentNotes({
       title: "Latest",
-      limit: 3
+      limit: 6
     })),
     Component.MobileOnly(Component.Explorer({
       title: "Explore",
