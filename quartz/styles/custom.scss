@@ -340,7 +340,7 @@ a.gate:hover #banana {
 // Before Body Wrapper
 
 .page .page-header {
-    margin: var(--desktopMarginTop) auto 1em;
+    margin: var(--desktopMarginTop) 1em 1em;
 }
 
 // Breadcrumbs
@@ -1136,7 +1136,7 @@ div.toc {
 
 @media (max-width: 1510px) {
     :root {
-        --desktopMarginTop: 4em;
+        --desktopMarginTop: 1em;
     }
     .page {
         padding: 0 1em;
