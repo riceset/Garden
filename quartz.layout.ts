@@ -29,25 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Divider(),
-    Component.DesktopOnly(Component.Explorer({
-      title: "Explore",
-      useSavedState: true,
-      sortFn: (a, b) => {
-        if ((!a.file && !b.file) || (a.file && b.file)) {
-          // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-          // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        if (a.file && !b.file) {
-          return 1
-        } else {
-          return -1
-        }
-      },
-    })),
+    Component.DesktopOnly(Component.RecentNotes({
+      title: "Most recent",
+      limit: 10
+    }))
   ],
   right: [
     Component.TagList(),
@@ -59,13 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkDistance: 50,
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
-    // Component.Backlinks(),
-    // Component.MobileOnly(Component.RecentNotes({
-    //   title: "Most recent",
-    //   limit: 5
-    // })),
-    Component.MobileOnly(Component.Explorer({
+    Component.Explorer({
       title: "Explore",
       useSavedState: true,
       sortFn: (a, b) => {
@@ -83,7 +62,13 @@ export const defaultContentPageLayout: PageLayout = {
           return -1
         }
       },
-    })),
+    }),
+    // Component.DesktopOnly(Component.TableOfContents()),
+    // Component.DesktopOnly(Component.Backlinks()),
+    // Component.MobileOnly(Component.RecentNotes({
+    //   title: "Most recent",
+    //   limit: 5
+    // })),
   ],
 }
 
