@@ -28,21 +28,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
-    Component.Divider(),
-    // Component.DesktopOnly(Component.RecentNotes({
-    //   title: "Most recent",
-    //   limit: 10
-    // }))
+    Component.Divider()
   ],
   right: [
     // Component.TagList(),
-    Component.Graph({
-      localGraph: {
-        linkDistance: 50,
-      },
-      globalGraph: {
-        linkDistance: 50,
-      },
+    Component.RecentNotes({
+      title: "Latest",
+      limit: 3
     }),
     Component.Explorer({
       title: "Explore",
@@ -61,6 +53,14 @@ export const defaultContentPageLayout: PageLayout = {
         } else {
           return -1
         }
+      },
+    }),
+    Component.Graph({
+      localGraph: {
+        linkDistance: 50,
+      },
+      globalGraph: {
+        linkDistance: 50,
       },
     }),
     // Component.DesktopOnly(Component.TableOfContents()),
