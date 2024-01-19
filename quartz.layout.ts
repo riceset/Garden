@@ -29,10 +29,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Divider(),
-    Component.DesktopOnly(Component.RecentNotes({
-      title: "Most recent",
-      limit: 5
-    })),
     Component.DesktopOnly(Component.Explorer({
       title: "Explore",
       useSavedState: true,
@@ -63,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkDistance: 50,
       },
     }),
-    // Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
     // Component.MobileOnly(Component.RecentNotes({
     //   title: "Most recent",

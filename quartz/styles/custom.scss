@@ -3,7 +3,7 @@
 // Basics
 
 :root {
-    --desktopMarginTop: 1m;
+    --desktopMarginTop: 2m;
     --r1: 0.0625rem;
     --r3: 0.1875rem;
     --r5: 0.3125rem;
@@ -31,6 +31,7 @@ html {
 }
 body {
     color: var(--dark);
+    justify-content: space-between;
     // opacity: 0;
     // animation: fadeIn 0.2s ease-in 0.2s forwards;
 }
@@ -340,7 +341,7 @@ a.gate:hover #banana {
 // Before Body Wrapper
 
 .page .page-header {
-    margin: var(--desktopMarginTop) 1em 1em;
+    margin: var(--desktopMarginTop) 2em 1em;
 }
 
 // Breadcrumbs
@@ -441,7 +442,7 @@ article > *:last-child {
             gap: unset;
             width: 19em;
             height: 100%;
-            padding: var(--desktopMarginTop) 1.5em 0;
+            padding: 2em;
             margin-top: 0;
             overflow-y: auto;
             &.right {
@@ -1136,7 +1137,7 @@ div.toc {
 
 @media (max-width: 1510px) {
     :root {
-        --desktopMarginTop: 1em;
+        --desktopMarginTop: 2em;
     }
     .page {
         padding: 0 1em;
