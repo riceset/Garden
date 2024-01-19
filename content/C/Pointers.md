@@ -7,6 +7,7 @@ description: When we declare a variable in C, we generally do something like thi
 tags:
   - C
 ---
+
 When we declare a variable in C, we generally do something like this:
 ```c
 int num = 1;
