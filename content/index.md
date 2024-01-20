@@ -1,5 +1,6 @@
 ---
 title: ""
+date: "1970/1/1"
 tags:
     - Swift
     - SwiftUI
@@ -12,7 +13,7 @@ tags:
     - Anki
 ---
 <div style="text-align: center; padding: 0 20px;">
-  <img src="../media/index/icon.png" alt="icon" width="150"/>
+  <img src="media/index/icon.png" alt="icon" width="150"/>
   <div style="font-size: 24px; margin-top: 20px;">
     Komeno
   </div>
