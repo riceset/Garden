@@ -4,7 +4,6 @@ date: 2022-07-16
 tags:
   - Swift
 ---
-
 # My Swift Guide: Personal Reference for Swift Programming Concepts
 
 ![image](../media/swift-guide.png)

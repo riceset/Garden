@@ -4,7 +4,6 @@ date: 2023-08-15
 tags:
   - C
 ---
-
 # An approach to solving the dining philosophers problem
 
 ![image](../media/philo.png)

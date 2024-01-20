@@ -5,7 +5,6 @@ tags:
   - Mandarin
   - Anki
 ---
-
 # Mastering Mandarin with Anki
 
 ![image](../media/anki-chinese.png)

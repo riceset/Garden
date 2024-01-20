@@ -1,16 +1,15 @@
 ---
 title: ""
-date: "1970/1/1"
 tags:
-    - Swift
-    - SwiftUI
-    - Stanford
-    - C
-    - Vim
-    - Linux
-    - Terminal
-    - Mandarin
-    - Anki
+  - Swift
+  - SwiftUI
+  - Stanford
+  - C
+  - Vim
+  - Linux
+  - Terminal
+  - Mandarin
+  - Anki
 ---
 <div style="text-align: center; padding: 0 20px;">
   <img src="media/index/icon.png" alt="icon" width="150"/>

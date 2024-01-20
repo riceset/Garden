@@ -4,7 +4,6 @@ date: 2021-06-09
 tags:
   - C
 ---
-
 # Introduction to pointers in C
 
 ![image](../media/pointers.png)

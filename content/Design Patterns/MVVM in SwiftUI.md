@@ -5,7 +5,6 @@ tags:
   - SwiftUI
   - Stanford
 ---
-
 # Understanding MVVM in SwiftUI (Stanford CS193p)
 
 ![image](../media/mvvm.png)
@@ -15,7 +14,7 @@ MVVM is a design paradigm that stands for *Model-View-ViewModel*.
 ### Model
 
 - It is completely UI independent (simple swift files)
-j- Contains the **data** + **logic**
+- Contains the **data** + **logic**
 
 ### View
 

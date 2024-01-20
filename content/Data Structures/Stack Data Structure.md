@@ -4,7 +4,6 @@ date: 2022-08-23
 tags:
   - C
 ---
-
 # Understanding the stack data structure
 
 ![image](../media/stacks.jpg)
