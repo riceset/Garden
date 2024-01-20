@@ -5,10 +5,9 @@ tags:
   - SwiftUI
   - Stanford
 ---
-
 # Getting started with SwiftUI (Stanford CS193p)
 
-![image](../media/swiftui-intro-cover.png)
+![[swiftui-intro-cover.png]]
 
 This struct behaves like a view (the struct conforms to the `View` protocol)
 The `View` protocol requires you to have the body variable (of type 'some View')
@@ -104,7 +103,7 @@ Applying a modifier function to a view combiner will apply the properties to all
 
 Preview:
 
-![first](../media/swiftui/first.png)
+![first](media/first.png)
 
 #### Setting the alignment
 
@@ -122,7 +121,7 @@ Preview:
 
 Preview:
 
-![second](../media/swiftui/second.png)
+![first](media/second.png)
 
 #### Simplifying the code
 
@@ -188,7 +187,7 @@ struct ContentView: View {
 }
 ```
 
-![third](../media/swiftui/third.png)
+![first](media/third.png)
 
 #### Creating local variables
 
@@ -239,7 +238,7 @@ HStack {
 }
 ```
 
-![fourth](../media/swiftui/fourth.png)
+![fourth](media/fourth.png)
 
 #### View Mutability and `@State`
 
@@ -511,4 +510,5 @@ ScrollView {
 	}
 }
 ```
-![fifth](../media/swiftui/fifth.png)
+
+![fifth](media/fifth.png)

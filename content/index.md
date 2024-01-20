@@ -1,5 +1,6 @@
 ---
 title: ""
+date: "1970/1/1"
 tags:
   - Swift
   - SwiftUI

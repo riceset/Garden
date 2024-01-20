@@ -6,7 +6,7 @@ tags:
 ---
 # Introduction to pointers in C
 
-![image](../media/pointers.png)
+![[pointers.png]]
 
 When we declare a variable in C, we generally do something like this:
 ```c

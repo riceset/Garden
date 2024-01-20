@@ -6,7 +6,7 @@ tags:
 ---
 # My Swift Guide: Personal Reference for Swift Programming Concepts
 
-![image](../media/swift-guide.png)
+![[swift-guide.png]]
 
 ### Functions
 

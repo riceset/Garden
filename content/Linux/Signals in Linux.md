@@ -8,7 +8,7 @@ tags:
 
 # Understanding signals in Linux
 
-![image](../media/signals.jpg)
+![[signals.jpg]]
 
 ## What is a process ID?
 

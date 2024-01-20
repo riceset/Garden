@@ -6,7 +6,7 @@ tags:
 ---
 # Understanding the stack data structure
 
-![image](../media/stacks.jpg)
+![[stacks.jpg]]
 
 **Stack** is an ADT (Abstract Data Structure) which follows the LIFO (Last In First Out) order. It might be easier to understand this concept by imagining an actual stack of books.
 
