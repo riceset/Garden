@@ -92,6 +92,14 @@ article.popover-hint h6 {
     padding-top: 1em;
     margin-top: 0;
 }
+
+@media screen and (min-width: 1500px) {
+    article.popover-hint h1 {
+        padding-top: 1em;
+        margin-top: 0;
+    }
+}
+
 article.popover-hint hr + h1,
 article.popover-hint hr + h2,
 article.popover-hint hr + h3,
