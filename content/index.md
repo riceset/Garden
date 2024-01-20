@@ -23,19 +23,18 @@ tags:
 </div>
 
 <style>
-  @media screen and (min-width: 1024px) { /* This applies for screens wider than 1024px */
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      min-height: 100vh;
-    }
-    body > div {
-      margin: auto;
-      width: fit-content;
-    }
-    /* Additional desktop-specific styles can go here */
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  body > div {
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 </style>

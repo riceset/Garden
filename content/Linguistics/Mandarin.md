@@ -36,7 +36,8 @@ In order to use Chinese fonts like *SimSun* (新宋), *SongTi* (宋体), and *Ka
 
 2. Rename the font file by adding an underscore before the font name and keeping the `.ttf` extension. For instance, rename `SongTi.ttf` to `_songti.ttf`.
 
-3. Move the renamed font file to Anki's media folder. On MacOS, you can usually find this folder at `~/Library/Application\ Support/Anki2/user/collection.media`, where 'user' is your profile name in Anki.
+3. Move the renamed font file to Anki's media folder. On MacOS, you can usually find this folder at `~/Library/Application\ Support/
+Anki2/user/collection.media`, where 'user' is your profile name in Anki.
 
 4. Now, you need to load the font into your note type's CSS, typically located at the bottom of the CSS file. Use the following syntax:
 
