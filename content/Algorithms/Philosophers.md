@@ -1,13 +1,15 @@
 ---
 title: An approach to solving the dining philosophers problem
 date: 2023-08-15
-author: Komeno
-cover: images/philo.png
-description: The Dining Philosophers Problem is a computer science problem formulated in 1965 by Edsger Dijkstra. It involves dealing with concurrent programming, synchronization issues, threads, deadlocks, and race conditions.
 tags:
   - C
 ---
-## 👀 Overview
+
+# An approach to solving the dining philosophers problem
+
+![image](../media/philo.png)
+
+## Overview
 The **Dining Philosophers Problem** is a computer science problem formulated in 1965 by [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra). It involves dealing with concurrent programming, synchronization issues, threads, deadlocks, and race conditions.
 
 #### The Problem
@@ -42,7 +44,7 @@ in which `X` is the philosopher ID.
 
 ***Note***: The message announcing the death of a philosopher should be displayed in no more than ***10 ms*** after the actual death.
 
-## 🎲 Table
+## Table
 
 In this project, we will be working with a main data structure in which will contain all the other ones, in the case of the philosophers project, as we will be dealing with threads, more specifically, one thread for each philosopher, we will have to find out how to put this table data structure inside each philosopher for accessing data from each thread.
 
@@ -98,7 +100,7 @@ typedef struct s_philo t_philo;
 typedef struct timeval t_timeval;
 ```
 
-## 🍴 Forks
+## Forks
 
 In my table structure I've got a mutex pointer called forks in which it will point to a block of memory containing all the mutexes used in the program.
 
@@ -148,7 +150,7 @@ void init_forks(t_table *table)
 
 That's it for allocating and initializing mutexes :)
 
-## 💭 Dealing with the philosopher data structure
+## Dealing with the philosopher data structure
 
 That's the definition for the philosopher data structure:
 
@@ -252,9 +254,9 @@ $$
 
 So the first philosopher's left fork will be 0, and the right fork will be 1, while the second philosopher's left fork will be 1 and the right fork will be 0 again. We just succeeded in simulating a round table with forks in between each philosopher.
 
-![Drawing](https://res.craft.do/user/preview/a56c5213-5c17-64c0-d902-b9958ea11cb4/doc/9BCB3C86-9D37-4BE9-863E-5303AA81C84B/4DE81475-B9BB-4B1F-AC51-8AFD3C416B8A_1/4aMSLV7rtyUkDXHAUXORo5u5POCWDIyqsbGsLMoZV4kz/Drawing.jpg)
+![Drawing](../media/philo/drawing.png)
 
-## ⏳ Calculating the time stamps
+## Calculating the time stamps
 
 As the program wants the output in miliseconds and the function `gettimeofday()` gives us values in seconds and microseconds, we have to convert both to miliseconds and sum them up.
 
@@ -333,7 +335,7 @@ int main(void)
 }
 ```
 
-## 🧵 Working with threads
+## Working with threads
 
 #### Creating threads
 
@@ -392,7 +394,7 @@ void init_simulation(t_table *table)
 }
 ```
 
-## 🚶‍♂️ The routine
+## The routine
 
 When we create a thread, the thread will start running a routine that is basically a function with a pre-determinate argument and a pre-determinate return value.
 
@@ -413,9 +415,3 @@ void *routine(void *arg)
 As we passed the "current philosopher" when creating the thread for this philosopher, the parameter `arg` will be replaced with a pointer to the current philosopher.
 
 But as `pthread_create()` doesn't know what variable type we will pass to it, that's why it's declared as a **void pointer** so we need to cast this value to our desired variable type (`t_philo` in this case).
-
-## 🚀 References
-
-#### My repository
-
-[GitHub - riceset/philosophers](https://github.com/riceset/philosophers)

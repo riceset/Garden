@@ -1,12 +1,14 @@
 ---
 title: Understanding the stack data structure
-author: Komeno
 date: 2022-08-23
-cover: images/stacks.jpg
-description: Stack is an ADT (Abstract Data Structure) which follows the LIFO (Last In First Out) order. It might be easier to understand this concept by imagining an actual stack of books.
 tags:
   - C
 ---
+
+# Understanding the stack data structure
+
+![image](../media/stacks.jpg)
+
 **Stack** is an ADT (Abstract Data Structure) which follows the LIFO (Last In First Out) order. It might be easier to understand this concept by imagining an actual stack of books.
 
 When working with stacks, you can use mainly two operations. `push()` to add an element to the top of a stack and `pop()` to literally pop out or remove an element of a stack. As it is considered an ADT (Abstract Data Structure) you can implement it in many ways with other basic data structures such as arrays or linked lists. Let’s try implementing it using an array first.

@@ -1,12 +1,13 @@
 ---
 title: Introduction to pointers in C
 date: 2021-06-09
-author: Komeno
-cover: images/pointers.png
-description: When we declare a variable in C, we generally do something like this...
 tags:
   - C
 ---
+
+# Introduction to pointers in C
+
+![image](../media/pointers.png)
 
 When we declare a variable in C, we generally do something like this:
 ```c

@@ -1,13 +1,15 @@
 ---
 title: Understanding signals in Linux
-author: Komeno
 date: 2022-08-12
-cover: images/signals.jpg
-description: A process ID a.k.a. PID is literally what the name says, it is a number to uniquely identify a running process. You can print your program’s PID in C using the getpid() function included on the header file unistd.h.
 tags:
   - C
   - Linux
 ---
+
+# Understanding signals in Linux
+
+![image](../media/signals.jpg)
+
 ## What is a process ID?
 
 A process ID a.k.a. ***PID*** is literally what the name says, it is a number to uniquely identify a running process. You can print your program’s ***PID*** in C using the ***getpid()*** function included on the header file ***unistd.h***.

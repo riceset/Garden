@@ -1,11 +1,13 @@
 ---
 title: "How to enable image preview on Ranger using Kitty"
 date:   2021-08-09
-author: Komeno
-cover: "images/ranger.png"
-description: "First, create a config file for Ranger in ~/.config/ranger called rc.conf"
 tags: [Terminal]
 ---
+
+# How to enable image preview on Ranger using Kitty
+
+![image](../media/ranger.png)
+
 ## Getting Started
 First, create a config file for Ranger in `~/.config/ranger` called `rc.conf`
 
@@ -62,5 +64,4 @@ with the path to where Python is located. In my case it was:
 
 Now, save the file and everything should be working.
 
-![ranger-2](https://github.com/riceset/riceset.com/assets/48802655/a9be6d14-bace-425f-8ea5-84b77b0b7713)
-
+![preview](../media/ranger/preview.png)

@@ -1,13 +1,15 @@
 ---
 title: Getting started with SwiftUI (Stanford CS193p)
 date: 2023-12-10
-author: Komeno
-cover: images/swiftui-intro-cover.png
-description: This struct behaves like a view (the struct conforms to the View protocol) The View protocol requires you to have the body variable (of type some View)
 tags:
   - SwiftUI
   - Stanford
 ---
+
+# Getting started with SwiftUI (Stanford CS193p)
+
+![image](../media/swiftui-intro-cover.png)
+
 This struct behaves like a view (the struct conforms to the `View` protocol)
 The `View` protocol requires you to have the body variable (of type 'some View')
 
@@ -102,7 +104,7 @@ Applying a modifier function to a view combiner will apply the properties to all
 
 Preview:
 
-![middle](https://github.com/riceset/riceset.com/assets/48802655/0b64ae6f-4c52-4f91-ab17-230027e9daa0)
+![first](../media/swiftui/first.png)
 
 #### Setting the alignment
 
@@ -120,7 +122,7 @@ Preview:
 
 Preview:
 
-![top](https://github.com/riceset/riceset.com/assets/48802655/714a35d1-26e1-4092-8ca8-29213d99c471)
+![second](../media/swiftui/second.png)
 
 #### Simplifying the code
 
@@ -186,7 +188,7 @@ struct ContentView: View {
 }
 ```
 
-![cardviewhstacked](https://github.com/riceset/riceset.com/assets/48802655/b10032d3-1385-4395-aa7b-af2e09d08c26)
+![third](../media/swiftui/third.png)
 
 #### Creating local variables
 
@@ -237,7 +239,7 @@ HStack {
 }
 ```
 
-![flippedcards](https://github.com/riceset/riceset.com/assets/48802655/7a3d9c14-63ca-4e0e-8090-0a0d9b34f623)
+![fourth](../media/swiftui/fourth.png)
 
 #### View Mutability and `@State`
 
@@ -509,5 +511,4 @@ ScrollView {
 	}
 }
 ```
-
-![adaptive](https://github.com/riceset/riceset.com/assets/48802655/28d56dc8-2843-44c1-9c55-286b7e2b397e)
+![fifth](../media/swiftui/fifth.png)
