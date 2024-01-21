@@ -334,7 +334,7 @@ Switching to Traditional Chinese (Pinyin) pressing 英数 twice:
 
 ```json
 {
-	"description": "eisuu*2 to Chinese",
+	"description": "eisuu twice to traditional",
 	"manipulators": [
 		{
 			"conditions": [
