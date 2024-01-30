@@ -37,5 +37,5 @@ This project utilizes Quartz, a tool enabling the conversion of an Obsidian vaul
 ```
 
 Credits:
-- (quartz)[https://quartz.jzhao.xyz/]
-- (theme)[https://github.com/freenandes/topo-da-mente]
+- [quartz](https://quartz.jzhao.xyz/)
+- [theme](https://github.com/freenandes/topo-da-mente)
