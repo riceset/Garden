@@ -36,6 +36,6 @@ This project utilizes Quartz, a tool enabling the conversion of an Obsidian vaul
     npx quartz build --serve
 ```
 
-### Credits:
+### Credits
 - [quartz](https://quartz.jzhao.xyz/)
 - [theme](https://github.com/freenandes/topo-da-mente)
