@@ -2,7 +2,7 @@
 title: Introduction to Vim
 date: 2022-02-06
 tags:
-  - Vim
+  - vim
 ---
 # Introduction to Vim
 

@@ -3,13 +3,18 @@ title: "riceset"
 tags:
   - Swift
   - SwiftUI
-  - Stanford
+  - algorithms
+  - data_structures
+  - design_patterns
+  - ft
   - C
-  - Vim
-  - Linux
-  - Terminal
-  - Mandarin
-  - Anki
+  - vim
+  - linux
+  - terminal
+  - anki
+  - mandarin
+  - karabiner
+  - terminal
 ---
 <div style="text-align: center; padding: 0 20px;">
   <img src="media/index/icon.png" alt="icon" width="150" />

@@ -1,7 +1,8 @@
 ---
-title: An approach to solving the dining philosophers problem
 date: 2023-08-15
 tags:
+  - algorithms
+  - ft
   - C
 ---
 # An approach to solving the dining philosophers problem

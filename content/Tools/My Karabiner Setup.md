@@ -1,7 +1,7 @@
 ---
 title: "My Karabiner Setup"
 date: 2024/1/21
-tags: [Mandarin, MacOS]
+tags: [karabiner]
 ---
 #  My Karabiner Setup
 

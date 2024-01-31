@@ -3,8 +3,9 @@ title: Getting started with SwiftUI (Stanford CS193p)
 date: 2023-12-10
 tags:
   - SwiftUI
-  - Stanford
+  - Swift
 ---
+
 # Getting started with SwiftUI (Stanford CS193p)
 
 ![[swiftui-intro-cover.png]]

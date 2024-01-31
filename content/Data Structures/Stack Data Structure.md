@@ -3,6 +3,7 @@ title: Understanding the stack data structure
 date: 2022-08-23
 tags:
   - C
+  - data_structures
 ---
 # Understanding the stack data structure
 
