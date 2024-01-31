@@ -3,7 +3,7 @@ title: Understanding signals in Linux
 date: 2022-08-12
 tags:
   - C
-  - Linux
+  - linux
 ---
 
 # Understanding signals in Linux

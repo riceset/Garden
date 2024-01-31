@@ -2,8 +2,8 @@
 title: Mastering Mandarin with Anki
 date: 2023-12-18
 tags:
-  - Mandarin
-  - Anki
+  - anki
+  - mandarin
 ---
 # Mastering Mandarin with Anki
 

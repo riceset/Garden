@@ -3,7 +3,8 @@ title: Understanding MVVM in SwiftUI (Stanford CS193p)
 date: 2023-12-19
 tags:
   - SwiftUI
-  - Stanford
+  - Swift
+  - design_patterns
 ---
 # Understanding MVVM in SwiftUI (Stanford CS193p)
 
