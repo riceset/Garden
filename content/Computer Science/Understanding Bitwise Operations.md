@@ -90,7 +90,9 @@ $$
 The bitwise shift operator can be used to dynamically generate bit masks:
 
 $$
-1 \; \ll \; n$$
+1 \; \ll \; n
+$$
+
 ## Practical Example
 
 Here, we are going to create a program that receives a number and prints its binary representation.
