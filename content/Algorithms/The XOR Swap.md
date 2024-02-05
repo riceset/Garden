@@ -60,7 +60,10 @@ $$
 Suppose we have two numbers we want to swap:
 
 $$
-\displaylines{x_0 = 101_2 \\ y_0 = 010_2}
+\begin{align*}
+x_0 = 101_2 \\
+y_0 = 010_2
+\end{align*}
 $$
 
 > [!info] Info
