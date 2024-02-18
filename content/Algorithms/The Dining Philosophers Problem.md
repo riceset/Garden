@@ -7,6 +7,13 @@ up: "[[Projects]]"
 
 ![philo](https://github.com/riceset/Garden/assets/48802655/594a660f-0f1a-4891-97ae-40222a86e069)
 
+## Overview
+The **Dining Philosophers Problem** is a computer science problem formulated in 1965 by [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra). It involves dealing with concurrent programming, synchronization issues, threads, deadlocks, and race conditions.
+
+#### The Problem
+
+There are one or more philosophers sitting around a table, with a large bowl of spaghetti placed in the middle. In order for a philosopher to eat, they need to use both their left and right forks simultaneously. There are as many forks as there are philosophers. Additionally, the philosophers cannot communicate with each other.
+
 ## Organizing data
 
 ```mermaid
@@ -357,10 +364,6 @@ Output:
 ```
 ID: 3 L: 2 R: 0
 ```
-
-#### Table representation
-
-![[Drawing 2024-02-10 18.22.54.excalidraw|center]]
 
 ## Displaying the timestamps
 
