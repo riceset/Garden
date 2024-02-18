@@ -111,7 +111,7 @@ typedef struct s_philo
 
 ## Starting the dinner party
 
-Before actually starting creating threads and running the philosopher routines we have to prepare the dinner party. By preparing the dinner party I mean doing some input error checking and variable initialization.
+Before actually start creating threads and running the philosopher routines we have to prepare the dinner party. By preparing the dinner party I mean doing some input error checking and variable initialization.
 
 ### can_prepare_dinner()
 
