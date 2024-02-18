@@ -5,9 +5,9 @@ up: "[[Projects]]"
 ---
 # The Dining Philosophers Problem
 
-## Organizing data
+![philo](https://github.com/riceset/Garden/assets/48802655/594a660f-0f1a-4891-97ae-40222a86e069)
 
-### The Dinner Structure
+## Organizing data
 
 ```mermaid
 flowchart TB
