@@ -55,8 +55,8 @@ flowchart TB
     Philosopher -->|accesses| B
 ```
 description:
-- A rhombus represent **mutex protected variables**
-- A circle represent a **mutex array**
+- A rhombus represents **mutex protected variables**
+- A circle represents a **mutex array**
 - In code, the left and right forks are represented as `forks[2]` where `forks[0]` represents the left fork and `forks[1]` the right fork
 
 We will define it as:
@@ -173,7 +173,7 @@ bool	correct_input(t_dinner *dinner, int argc, char **argv)
 }
 ```
 
-After checking the input, we can insert this data into the `dinner` data structure into `rules`:
+After checking the input, we can insert this data into the `dinner` data structure:
 
 ```c
 void	set_dinner_rules(t_dinner *dinner, int argc, char **argv)
@@ -217,8 +217,8 @@ bool	can_initialize_forks(t_dinner *dinner)
 > [!note] Note
 > When creating mutexes, we have to handle possible errors just like when
 > using malloc. In case of an error, `pthread_mutex_create()` returns a value
-> different from `0` and we will have to call a function called
-> `pthread_mutex_destroy()` to destroy all the created mutexes:
+> different from `0` and we have to call a function called
+> `pthread_mutex_destroy()` to destroy all the created mutexes
 
 ```c
 static void	handle_mutex_init_failure(t_dinner *dinner, int i)
@@ -272,7 +272,7 @@ void	assign_forks(t_philo *philo)
 }
 ```
 
-When assigning forks, we first have to determine if the philosopher takes the left fork first and then takes the right fork or if it takes the right fork first and the left fork before. To determine if the philosopher is left or right handed, we take his index and see if it is even or odd. If it is even then the philosopher will be left handed. This is totally arbitrary and I could have set an even id for a right handed philosopher.
+When assigning forks, we first need to determine whether the philosopher takes the left fork first and then the right fork, or vice versa. To determine whether the philosopher is left or right-handed, we check their index to see if it is even or odd. If it is even, then the philosopher will be considered left-handed. This is entirely arbitrary, and I could have designated an even ID for a right-handed philosopher.
 
 ```c
 static bool	philosopher_is_left_handed(t_philo *philo)
@@ -299,7 +299,7 @@ static void	assign_right_fork_first(t_philo *philo)
 
 So the first philosopher's left fork will be the `i` in the forks array and their right fork will be the `i + 1` fork.
 
-The modulo operation here is used to make the last philosopher's right fork be the first fork in the array. That way we can make the table circular by making the last fork be the first fork:
+The modulo operation here is used to make the last philosopher's right fork be the first fork in the array. This way we can make the table circular by making the last fork be the first fork:
 
 let the number of philosophers be $n$ and the current philosopher id be $i + 1$:
 
@@ -481,7 +481,7 @@ enum						e_philo_status
 };
 ```
 
-Now, using the `print_philo_status()` function, we can select which status we want to print, then print the current status as required by the subject with the philosopher's id and current time. Of course, we have to protect the print statement by mutexes:
+Now, using the `print_philo_status()` function, we can select which status we want to print, then print the current status as required by the subject. Of course, we have to protect the print statement by mutexes:
 
 ```c
 void	print_philo_status(t_philo *philo, t_philo_status status)
@@ -516,7 +516,7 @@ static void	print_in_required_format(t_philo *philo, char *action)
 
 ## Working with threads
 
-Now that we finished preparing the `dinner`, we can start the dinner by getting the current time (the dinner start time) and creating threads for each philosopher. To create a thread we need to use the [[pthread_create()]] function.
+Now that we finished preparing the `dinner`, we can start the dinner by getting the current time (the dinner start time) and create threads for each philosopher. To create a thread we need to use the [[pthread_create()]] function.
 
 ```c
 void	start_dinner(t_dinner *dinner)
