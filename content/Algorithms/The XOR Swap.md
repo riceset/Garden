@@ -2,6 +2,7 @@
 tags:
   - 🌱
 up: "[[Computer Science]]"
+date: 02-05-2024
 ---
 # The XOR Swap
 
