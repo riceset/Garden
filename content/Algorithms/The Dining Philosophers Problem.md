@@ -5,7 +5,7 @@ up: "[[Projects]]"
 ---
 # The Dining Philosophers Problem
 
-![philo](https://github.com/riceset/Garden/assets/48802655/594a660f-0f1a-4891-97ae-40222a86e069)
+![[philo.png]]
 
 ## Overview
 The **Dining Philosophers Problem** is a computer science problem formulated in 1965 by [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra). It involves dealing with concurrent programming, synchronization issues, threads, deadlocks, and race conditions.

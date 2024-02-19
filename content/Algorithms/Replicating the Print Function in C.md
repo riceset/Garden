@@ -5,6 +5,8 @@ up: "[[Exam Rank 3]]"
 ---
 # Replicating the Print Function in C
 
+![[DALL·E Feb 19 Design.jpg]]
+
 `printf()` is one of the most useful functions in almost every programming language. In this project, we are going to learn how to implement this function in C using variadic parameters.
 
 ## What is a variadic function?
@@ -94,7 +96,7 @@ In this example, we are only going to support the following formats:
 void put_fmt(va_list *args, const char c, size_t *size);
 ```
 
-Here, we are going to check if the current character (in this case, `c)` is equal to one of the format specifiers. We are going to use `va_arg` here to represent the current argument in the argument list passing the type to handle the variadic argument:
+Here, we are going to check if the current character (in this case, `c`) is equal to one of the format specifiers. We are going to use `va_arg` here to represent the current argument in the argument list passing the type to handle the variadic argument:
 
 ```c
 switch (c)
@@ -126,6 +128,8 @@ void my_putstr(char *str, size_t *size)
 		my_putchar(str[i], size);
 }
 ```
+
+Here, we just loop through the string parameter and print each character. If `str == NULL` we print the string `(null)` just like the original `printf()` from `stdio.h`
 
 ### When the argument parameter is a decimal number:
 
@@ -171,10 +175,12 @@ example:
 
 ```mermaid
 graph TD;
-    A["my_putnbr(42)"] -->|division by 10| B["my_putnbr(4)"]
-    B -->|print '4'| D[Return after '4']
-    A -->|modulo 10| C["my_putnbr(2)"]
-    C -->|print '2'| E[Return after '2']
+    A("my_putnbr(42)") ---|division by 10| B("my_putnbr(4)")
+    B -->|print '4'| D(return)
+    D --> A
+    A ---|modulo 10| C("my_putnbr(2)")
+    C -->|print '2'| E(return)
+	E --> A
 ```
 
 Imagine we want to print the number `42`:
@@ -209,3 +215,15 @@ void my_puthex(unsigned int n, size_t *size)
 
 }
 ```
+
+## Optional error handling
+
+When using the original `printf()`, you will notice that if you pass a parameter that does not match the format specifier (e.g., passing a string when the format specifier is `%d`), the compiler will issue a warning.
+
+To replicate this behavior in our custom `printf()` function, we can define the prototype for `my_printf()` with this `__attribute__`:
+
+```c
+int		my_printf(const char *fmt, ...) __attribute__((format(printf, 1, 2)));
+```
+
+This tells the compiler that our function behaves similarly to `printf()`. It specifies that the first parameter contains the format string, and the variadic parameters start from the second parameter.
