@@ -96,6 +96,15 @@ c++ -Wall -Wextra -Werror -std=c++98 main.o other.o -o program
 
 This is the actual command that gets executed.
 
+### Creating object files
+
+This is the rule used to create object files. It basically says: For any C++ file, generate an object file. It also depends on the `INCLUDES` so if any header file changes, all object files are going to get regenerated. Then it compiles each `.cpp` file (represented by the automatic variable `$<` here) to an object file (with the `-c` flag) and outputs a file with the same name but with the `.o` extension. Here `$@` represents each `.o` file:
+
+```makefile
+%.o: %.cpp $(INCLUDES)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+```
+
 ### Implementing clean
 
 To implement `clean`, `fclean` and `re` is really simple.
