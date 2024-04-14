@@ -32,8 +32,9 @@ CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 In the `SRCS` variable we can specify all the `.cpp` files used in the project. These are the files that are going to be compiled into object files (`.o`) and then combined into an executable file.
 
 ```makefile
-SRCS = megaphone.cpp
+SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
+INCLUDES = main.hpp
 ```
 
 > [!notes] Notes on OBJS
