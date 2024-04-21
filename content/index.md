@@ -8,7 +8,7 @@ title: "riceset"
     Komeno
   </div>
   <p style="margin-top: 20px;">
-  Software engineer at [École 42 Paris](https://42.fr)' [Tokyo campus](https://42tokyo.jp) and freshman at [Tokyo University of Foreign Studies](https://www.tufs.ac.jp).
+  Software engineer at <a href="https://42.fr">École 42 Paris</a> <a href="https://42tokyo.jp">Tokyo campus</a> and freshman at <a href="https://www.tufs.ac.jp">Tokyo University of Foreign Studies</a>.
   </p>
 </div>
 
