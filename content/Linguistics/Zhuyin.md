@@ -29,6 +29,8 @@ Naturally, we can to make templates suit our individual preferences, such as opt
 ## Audio and tone syntax highlight
 [Chinese Support]() is an exceptional plugin which automatically adds Zhuyin/Pinyin readings and audio to your cards:
 
+![[Linguistics/media/ezgif-6-3547f632c0.gif]]
+
 ## Fonts
 In order to use Chinese fonts like *SimSun* (新宋), *SongTi* (宋体), and *KaiTi* (楷体) on your iPhone, follow these steps:
 
