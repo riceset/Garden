@@ -1,10 +1,8 @@
 ---
 title: Journey into Zhuyin: The Taiwanese alphabet
-date: 2023-12-18
-tags:
-  - anki
-  - mandarin
+date: 2024-04-21
 ---
+
 # Journey into Zhuyin: The Taiwanese alphabet
 
 I've always been fascinated by Chinese characters, particularly the traditional ones used in Taiwanese Mandarin. This led me to study Zhuyin, the phonetic system utilized in Taiwan not only to represent sounds and tones but also to input of Chinese characters on computers.
