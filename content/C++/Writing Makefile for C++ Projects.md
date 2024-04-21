@@ -4,6 +4,8 @@ date: 2024-04-18
 
 # Writing Makefile for C++ Projects
 
+![[C++/media/makefile.jpg]]
+
 ## Setting variables
 Let's start by setting some basic variables:
 
