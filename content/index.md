@@ -1,28 +1,14 @@
 ---
 title: "riceset"
-tags:
-  - Swift
-  - SwiftUI
-  - algorithms
-  - data_structures
-  - design_patterns
-  - ft
-  - C
-  - vim
-  - linux
-  - terminal
-  - anki
-  - mandarin
-  - karabiner
-  - terminal
 ---
+
 <div style="text-align: center; padding: 0 20px;">
   <img src="media/index/icon.png" alt="icon" width="150" />
   <div style="font-size: 24px; margin-top: 20px;">
     Komeno
   </div>
   <p style="margin-top: 20px;">
-    Software Engineer
+  Software engineer at [École 42 Paris](https://42.fr)' [Tokyo campus](https://42tokyo.jp) and freshman at [Tokyo University of Foreign Studies](https://www.tufs.ac.jp).
   </p>
 </div>
 
