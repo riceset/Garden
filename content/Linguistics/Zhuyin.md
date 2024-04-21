@@ -1,4 +1,11 @@
-# Journey into Zhuyin: My First Steps with the Taiwanese alphabet
+---
+title: Journey into Zhuyin: The Taiwanese alphabet
+date: 2023-12-18
+tags:
+  - anki
+  - mandarin
+---
+# Journey into Zhuyin: The Taiwanese alphabet
 
 I've always been fascinated by Chinese characters, particularly the traditional ones used in Taiwanese Mandarin. This led me to study Zhuyin, the phonetic system utilized in Taiwan not only to represent sounds and tones but also to input of Chinese characters on computers.
 
@@ -27,7 +34,7 @@ Anki's note types consist of two HTML files (one for the front and one for the b
 Naturally, we can to make templates suit our individual preferences, such as opting for centered text or incorporating additional buttons. I have done exactly that, and you can access my customized template on my GitHub repository, named [NeoMnemo](https://github.com/riceset/NeoMnemo) (access it from the `mandarin` branch!)
 
 ## Audio and tone syntax highlight
-[Chinese Support]() is an exceptional plugin which automatically adds Zhuyin/Pinyin readings and audio to your cards:
+[Chinese Support](https://ankiweb.net/shared/info/1752008591) is an exceptional plugin which automatically adds Zhuyin/Pinyin readings and audio to your cards:
 
 ![[Linguistics/media/ezgif-6-3547f632c0.gif]]
 
