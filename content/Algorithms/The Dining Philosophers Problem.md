@@ -1,9 +1,7 @@
 ---
-tags:
-  - 🌱
-up: "[[Projects]]"
 date: 2024-02-17
 ---
+
 # The Dining Philosophers Problem
 
 ![[philo.png]]

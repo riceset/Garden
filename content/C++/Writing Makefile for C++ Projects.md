@@ -1,3 +1,7 @@
+---
+date: 2024-04-18
+---
+
 # Writing Makefile for C++ Projects
 
 ## Setting variables

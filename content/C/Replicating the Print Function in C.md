@@ -1,8 +1,7 @@
 ---
-tags:
-  - 🌱
-up: "[[Exam Rank 3]]"
+date: 2024-02-17
 ---
+
 # Replicating the Print Function in C
 
 ![[DALL·E Feb 19 Design.jpg]]

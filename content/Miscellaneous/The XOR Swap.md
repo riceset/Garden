@@ -1,9 +1,7 @@
 ---
-tags:
-  - 🌱
-up: "[[Computer Science]]"
 date: 02-05-2024
 ---
+
 # The XOR Swap
 
 The $\text{XOR}$ swap algorithm is a clever programming trick used to swap the values of two variables without using a third temporary variable. This method exploits the properties of the $\text{XOR}$ bitwise operation to perform the swap efficiently and in a mathematically elegant manner. The $\text{XOR}$, or "exclusive or," operation on two bits results in a value of 1 if and only if the bits are different; otherwise, the result is 0.
