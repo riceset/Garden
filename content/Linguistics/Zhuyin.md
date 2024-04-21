@@ -5,6 +5,8 @@ date: 2024-04-21
 
 # Journey into Zhuyin
 
+![[Linguistics/media/anki-chinese.png]]
+
 I've always been fascinated by Chinese characters, particularly the traditional ones used in Taiwanese Mandarin. This led me to study Zhuyin, the phonetic system utilized in Taiwan not only to represent sounds and tones but also to input of Chinese characters on computers.
 
 When learning specific character sets like Zhuyin or Cyrillic, I prefer to learn how to read them in the context of whole words, rather than individual characters. This approach makes it easier to memorize them since, in the real world, we deal with words rather than isolated characters. The same principle applies to vocabulary learning. It’s not very effective to learn isolated words without understanding the context in which they're used. So, when learning new words, it’s crucial to learn them within a phrase.
@@ -43,8 +45,8 @@ In order to use Chinese fonts like *SimSun* (新宋), *SongTi* (宋体), and *Ka
 
 2. Rename the font file by adding an underscore before the font name and keeping the `.ttf` extension. For instance, rename `SongTi.ttf` to `_songti.ttf`.
 
-3. Move the renamed font file to Anki's media folder. On MacOS, you can usually find this folder at `~/Library/Application\ Support/
-Anki2/user/collection.media`, where 'user' is your profile name in Anki.
+3. Move the renamed font file to Anki's media folder. On MacOS, you can usually find this folder at ~/Library/Application\ Support/
+Anki2/user/collection.media, where 'user' is your profile name in Anki.
 
 4. Now, you need to load the font into your note type's CSS, typically located at the bottom of the CSS file. Use the following syntax:
 
