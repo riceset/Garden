@@ -104,7 +104,7 @@ Applying a modifier function to a view combiner will apply the properties to all
 
 Preview:
 
-![first](media/first.png)
+![[SwiftUI/media/first.png]]
 
 #### Setting the alignment
 
@@ -122,7 +122,7 @@ Preview:
 
 Preview:
 
-![first](media/second.png)
+![[SwiftUI/media/second.png]]
 
 #### Simplifying the code
 
@@ -188,7 +188,7 @@ struct ContentView: View {
 }
 ```
 
-![first](media/third.png)
+![[SwiftUI/media/third.png]]
 
 #### Creating local variables
 
@@ -239,7 +239,7 @@ HStack {
 }
 ```
 
-![fourth](media/fourth.png)
+![[SwiftUI/media/fourth.png]]
 
 #### View Mutability and `@State`
 
@@ -512,4 +512,4 @@ ScrollView {
 }
 ```
 
-![fifth](media/fifth.png)
+![[SwiftUI/media/fifth.png]]
