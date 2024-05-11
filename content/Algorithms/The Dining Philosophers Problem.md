@@ -4,8 +4,6 @@ date: 2024-02-17
 
 # The Dining Philosophers Problem
 
-![[philo.png]]
-
 ## Overview
 The **Dining Philosophers Problem** is a computer science problem formulated in 1965 by [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra). It involves dealing with concurrent programming, synchronization issues, threads, deadlocks, and race conditions.
 

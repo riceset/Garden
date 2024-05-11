@@ -5,8 +5,6 @@ date: 2021-06-09
 
 # Introduction to pointers in C
 
-![[pointers.png]]
-
 When we declare a variable in C, we generally do something like this:
 ```c
 int num = 1;

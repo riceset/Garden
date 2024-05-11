@@ -4,8 +4,6 @@ date: 2024-02-17
 
 # Replicating the Print Function in C
 
-![[DALL·E Feb 19 Design.jpg]]
-
 `printf()` is one of the most useful functions in almost every programming language. In this project, we are going to learn how to implement this function in C using variadic parameters.
 
 ## What is a variadic function?

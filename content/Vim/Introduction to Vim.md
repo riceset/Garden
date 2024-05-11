@@ -6,8 +6,6 @@ tags:
 ---
 # Introduction to Vim
 
-![[vim.png]]
-
 Vim is one of the most powerful text editors you can think of. In this article, I will introduce you some basic and useful Vim commands.
 
 ## Vim modes

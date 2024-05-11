@@ -1,7 +1,5 @@
 # Understanding Object-Oriented Programming in C++
 
-![[C++/media/class.png]]
-
 If you have coded in C before, you might have heard of structs. Those are user defined data types to encapsulate related data into a new data type.
 
 ```c

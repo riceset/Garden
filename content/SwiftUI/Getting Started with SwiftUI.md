@@ -8,8 +8,6 @@ tags:
 
 # Getting started with SwiftUI (Stanford CS193p)
 
-![[swiftui-intro-cover.png]]
-
 This struct behaves like a view (the struct conforms to the `View` protocol)
 The `View` protocol requires you to have the body variable (of type 'some View')
 
