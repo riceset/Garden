@@ -3,8 +3,7 @@ date: 24-06-2024
 ---
 
 # Understanding Subnetting
-
-Subnetting is the process of dividing a network into smaller subnetworks. This allows for efficient use of IP addresses and improves network security and management. Each subnet functions as an individual network, and devices within a subnet can communicate directly.
+Subnetting is the process of dividing a network into smaller subnetworks. This allows for efficient use of IP addresses and improves network security and management. Each subnet functions as an individual network.
 
 ## IP Address Format
 An IPv4 address consists of a 32-bit number, divided into four octets. Each octet is represented by a decimal number ranging from 0 to 255, separated by dots. For example:
@@ -75,6 +74,7 @@ $$
 11111111.11111111.11111111.11110000 = /28
 $$
 
+> [!info] Info
 > The CIDR notation represents the subnet mask by the number of 1s it contains. For example, /28 indicates that 28 out of 32 bits are set to 1, representing the network portion.
 
 4. Determine the number of bits for hosts:
@@ -83,6 +83,7 @@ $$
 32 - 28 = 4
 $$
 
+> [!info] Info
 > An IPv4 address consists of 32 bits. If the network portion occupies 28 bits, 4 bits are available for host addresses.
 
 5. Determine the range of addresses:
@@ -94,6 +95,7 @@ $$
 \end{align}
 $$
 
+> [!info] Info
 > With 4 bits for host addresses, the range is $0000 \le n \le 1111$ or $0 \le n \le 15$ in decimal.
 
 6. Calculate the block number by dividing the last octet of the IP address by the range:
@@ -105,6 +107,7 @@ $$
 \end{align}
 $$
 
+> [!info] Info
 > Dividing the last octet by the range indicates the network block. Here, the IP address is in the 10th block because $169 \div 16 = 10$.
 
 7. Calculate the lowest number of the block:
