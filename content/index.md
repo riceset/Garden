@@ -14,11 +14,6 @@ title: "riceset"
   <p>
     🇯🇵 C2・🇬🇧 C2・🇵🇹 C2・🇪🇸 B2・🇹🇼 B1・🇫🇷 A1・🇰🇷 A1
   </p>
-
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/tkomeno/github-stats-transparent/output/generated/overview.svg" alt="overview">
-    <img src="https://raw.githubusercontent.com/tkomeno/github-stats-transparent/output/generated/languages.svg" alt="languages">
-  </div>
 </div>
 
 <style>
@@ -35,15 +30,5 @@ title: "riceset"
     width: fit-content;
     max-width: 100%;
     box-sizing: border-box;
-  }
-  .image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  @media (max-width: 600px) {
-    .image-container {
-      flex-direction: column;
-    }
   }
 </style>
