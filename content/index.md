@@ -10,6 +10,10 @@ title: "riceset"
   <p style="margin-top: 20px;">
     Software engineer at École 42 Paris, based in the Tokyo campus. Student at Tokyo University of Foreign Studies, majoring in international Japan studies.
   </p>
+  <br>
+  <p>
+    🇯🇵 C2・🇬🇧 C2・🇵🇹 C2・🇪🇸 B2・🇹🇼 B1・🇫🇷 A1・🇰🇷 A1
+  </p>
 </div>
 
 <style>
