@@ -11,9 +11,10 @@ title: "riceset"
     Software engineer at École 42 Paris, based in Tokyo. Student at Tokyo University of Foreign Studies, majoring in international Japan studies. Passionate about iPhone app development and language learning.
   </p>
   <br>
-  <p>
+  <p class="languages">
     🇯🇵 C2 / 🇬🇧 C2 / 🇵🇹 C2 / 🇪🇸 B2 / 🇹🇼 B1 / 🇫🇷 A1 / 🇰🇷 A1
   </p>
+
 </div>
 
 <style>
@@ -31,4 +32,37 @@ title: "riceset"
     max-width: 100%;
     box-sizing: border-box;
   }
+  .languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .languages span {
+    margin-right: 5px;
+  }
+  @media (max-width: 600px) {
+    .image-container {
+      flex-direction: column;
+    }
+    .image-container img {
+      margin-bottom: 10px;
+    }
+    .languages {
+      display: block;
+    }
+  }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const languages = document.querySelector('.languages');
+    const languagesText = languages.innerHTML.split('/');
+    languages.innerHTML = '';
+    languagesText.forEach((lang, index) => {
+      languages.innerHTML += `<span>${lang.trim()}</span>`;
+      if (index < languagesText.length - 1) {
+        languages.innerHTML += ' / ';
+      }
+    });
+  });
+</script>
