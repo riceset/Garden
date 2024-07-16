@@ -8,7 +8,7 @@ title: "riceset"
     Komeno
   </div>
   <p style="margin-top: 20px;">
-    Software engineer at École 42 Paris, based in the Tokyo campus. Student at Tokyo University of Foreign Studies, majoring in international Japan studies.
+    Software engineer at École 42 Paris, based in the Tokyo campus. Student at Tokyo University of Foreign Studies, majoring in international Japan studies. Passionate about iPhone app development and language learning.
   </p>
   <br>
   <p>
