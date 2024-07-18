@@ -1,5 +1,6 @@
 ---
 title: "riceset"
+date: 2000-02-17
 ---
 
 <div style="text-align: center; padding: 0 20px;">
