@@ -11,12 +11,6 @@ date: 2000-02-17
   <p style="margin-top: 20px;">
     Software engineering student at École 42. Currently majoring in Japan Studies at Tokyo University of Foreign Studies as a MEXT scholarship undergraduate student. Passionate about iOS app development and language learning.
   </p>
-  <br>
-  <p>
-    🇯🇵 C2 / 🇬🇧 C2 / 🇵🇹 C2 / 🇪🇸 B2
-  </p><p>
-    🇹🇼 B1 / 🇫🇷 A1 / 🇰🇷 A1
-  </p>
 
 </div>
 
