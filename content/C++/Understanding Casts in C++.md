@@ -81,7 +81,9 @@ public:
 struct Banana {
     int y;
 };
+```
 
+```cpp
 Apple* apple = new Apple();
 Banana* banana = reinterpret_cast<Banana*>(apple);
 
