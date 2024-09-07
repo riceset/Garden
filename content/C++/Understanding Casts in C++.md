@@ -40,6 +40,7 @@ Player *player = new Player;
 
 ### Upcasting
 • **What it is**: Casting a derived class pointer to a base class pointer.
+
 • **Why it’s safe**: Every Player is also an Entity, so this cast is safe.
 
 ```cpp
@@ -48,6 +49,7 @@ Entity *ep = player;
 
 ### Downcasting
 • **What it is**: Casting a base class pointer to a derived class pointer.
+
 • **Why it’s dangerous**: Not every Entity is a Player, so this cast can be unsafe.
 
 ```cpp
