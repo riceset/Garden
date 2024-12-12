@@ -8,6 +8,9 @@ date: 2000-02-17
   <div style="font-size: 24px; margin-top: 20px;">
     Komeno
   </div>
+    <p style="margin-top: 20px;">
+    Software Engineer
+  </p>
 </div>
 
 <style>
