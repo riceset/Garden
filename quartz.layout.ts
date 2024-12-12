@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.RecentNotes({
       title: "Latest",
       limit: 5
-    }))
+    })),
      Component.DesktopOnly(Component.Graph({
        localGraph: {
          linkDistance: 50,
