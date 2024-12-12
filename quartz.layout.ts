@@ -32,24 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.RecentNotes({
       title: "Latest",
       limit: 5
-    })),
-    Component.MobileOnly(Component.Explorer({
-      title: "Explore",
-      useSavedState: true,
-      sortFn: (a, b) => {
-        if ((!a.file && !b.file) || (a.file && b.file)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        if (a.file && !b.file) {
-          return 1
-        } else {
-          return -1
-        }
-      },
-    })),
+    }))
      Component.DesktopOnly(Component.Graph({
        localGraph: {
          linkDistance: 50,
