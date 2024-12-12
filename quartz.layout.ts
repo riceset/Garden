@@ -50,14 +50,14 @@ export const defaultContentPageLayout: PageLayout = {
         }
       },
     })),
-     Component.DesktopOnly(Component.Graph({
+     Component.Graph({
        localGraph: {
          linkDistance: 50,
        },
        globalGraph: {
          linkDistance: 50,
        },
-     })),
+     }),
         Component.DesktopOnly(Component.Explorer({
       title: "Explore",
       useSavedState: true,
