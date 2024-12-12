@@ -8,10 +8,6 @@ date: 2000-02-17
   <div style="font-size: 24px; margin-top: 20px;">
     Komeno
   </div>
-  <p style="margin-top: 20px;">
-    Software engineering student at École 42. Currently majoring in Japan Studies at Tokyo University of Foreign Studies. Passionate about language learning.
-  </p>
-
 </div>
 
 <style>
