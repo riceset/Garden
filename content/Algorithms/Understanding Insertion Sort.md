@@ -24,13 +24,15 @@ void insertion_sort(int *a, int n) {
 Where:
 - `a` is the array
 - `n` is the number of elements
-- `key` is the selected element in the unsorted portion
 - `j` is the index of the sorted portion
+- `key` is the selected element in the unsorted portion
 
 Consider the following array $A$ with 3 elements $(n = 3)$.
+
 $$
 A = [6, 5, 3]
 $$
+
 ### Step by step
 Consider the following `for` loop that is the main part of the algorithm:
 
