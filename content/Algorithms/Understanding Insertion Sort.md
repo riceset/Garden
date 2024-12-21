@@ -6,7 +6,6 @@
 - The selected element in the unsorted portion is called the **key**.
 - When inserting the key, we shift the elements by one index to the left until the start of the array is reached or an element less than or equal to the key is found.
 
-![image](https://github.com/user-attachments/assets/2c77b4a5-ad8d-4a7b-8b1a-bc34b63e5398)
 ## Example
 
 ```cpp
