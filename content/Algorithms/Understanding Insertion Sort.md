@@ -214,3 +214,9 @@ a[j + 1] = key;
  ^        ^
  j        i
 ```
+
+The array got sorted!
+
+$$
+A = [3, 5, 6]
+$$
