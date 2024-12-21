@@ -33,9 +33,11 @@ Where:
 - `j` is the index of the sorted portion
 
 Consider the following array $A$ with 3 elements $(n = 3)$.
+
 $$
 A = [6, 5, 3]
 $$
+
 ### Step by step
 Consider the following algorithm:
 
