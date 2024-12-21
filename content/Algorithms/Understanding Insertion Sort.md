@@ -31,7 +31,7 @@ Where:
 - `key` is the selected element in the unsorted portion
 - `j` is the index of the sorted portion
 
-Consider the following array $A$ with 3 elements $(n = 3)$.
+Consider the following array $A$ with 3 elements $(n = 3)$:
 
 $$
 A = [6, 5, 3]
