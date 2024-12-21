@@ -168,7 +168,7 @@ j = 0
  j     i
 ```
 
-4. The condition is checked again $(j \geq 0)$ and it meets it as $(0 \geq 0)$.  `a[j]` which is 5 is also greater than the key which is 3.
+4. The condition is checked again $(j \geq 0)$ and it matches as $(0 \geq 0)$.  `a[j]` which is 5 is also greater than the key which is 3.
 
 ```cpp
 while (j >= 0 && a[j] > key)
