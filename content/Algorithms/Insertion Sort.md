@@ -1,3 +1,6 @@
+---
+date: 2024-12-22
+---
 # Understanding Insertion Sort
 Insertion sort is a straightforward yet inefficient sorting algorithm with a time complexity of $O(n^2)$. It works by treating the left portion of the array as already sorted, while the right portion remains unsorted. At each step, an element (referred to as the **key**) is taken from the unsorted portion and inserted into its correct position within the sorted section. The process begins by considering the first element already sorted, as it forms a one-element array. To insert the **key**, elements in the sorted section are shifted one position to the right until the key can be placed in its proper spot.
 
