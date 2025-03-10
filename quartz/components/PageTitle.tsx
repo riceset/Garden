@@ -33,7 +33,6 @@ PageTitle.css = `
 }
 
 .page-title {
-  font-family: 'Lexend Zetta', sans-serif;
   font-size: 1.5rem;
   margin: 0;
   color: var(--primary-color);
