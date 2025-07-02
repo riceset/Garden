@@ -32,7 +32,7 @@ title: "Komeno"
   <div style="font-size: 24px; font-weight: bold; margin-top: 6px;">
     Komeno
   </div>
-  <p style="margin-top: 6px; max-width: 500px; padding: 0 6px;">
+  <p style="margin-top: 6px; max-width: 500px; padding: 0 15px;">
     Japanese-Brazilian software engineering student at 🇫🇷 École 42. Currently majoring in Japan Studies at Tokyo University of Foreign Studies. Passionate about iOS app development and language learning.
   </p>
 </div>
