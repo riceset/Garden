@@ -33,6 +33,6 @@ title: "Komeno"
     Komeno
   </div>
   <p style="margin-top: 6px;">
-    Software Engineer
+    Japanese-Brazilian software engineering student at 🇫🇷 École 42. Currently majoring in Japan Studies at Tokyo University of Foreign Studies. Passionate about iOS app development and language learning.
   </p>
 </div>
