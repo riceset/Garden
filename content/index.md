@@ -33,6 +33,6 @@ title: "Komeno"
     Komeno
   </div>
   <p style="margin-top: 6px; max-width: 500px; padding: 0 15px;">
-    Software Engineer
+    Software engineering student at École 42
   </p>
 </div>
