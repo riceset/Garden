@@ -33,6 +33,6 @@ title: "Komeno"
     Komeno
   </div>
   <p style="margin-top: 6px; max-width: 500px; padding: 0 15px;">
-    Japanese-Brazilian software engineer, École 42 (Paris/Tokyo) graduate, and student at Tokyo University of Foreign Studies.
+    Japanese–Brazilian software engineer, École 42 (Paris/Tokyo) graduate, currently at Tokyo University of Foreign Studies.
   </p>
 </div>
