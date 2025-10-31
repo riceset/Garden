@@ -33,6 +33,6 @@ title: "Komeno"
     Komeno
   </div>
   <p style="margin-top: 6px; max-width: 500px; padding: 0 15px;">
-    Japanese–Brazilian software engineer and Google AI Student Ambassador. École 42 (Paris/Tokyo) alum, currently at Tokyo University of Foreign Studies. Passionate about iOS app development and language learning.
+    Japanese–Brazilian software engineer and Google AI Student Ambassador. École 42 (Paris/Tokyo) alum, currently at Tokyo University of Foreign Studies.
   </p>
 </div>
